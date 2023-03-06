@@ -5,12 +5,14 @@ import java.util.Scanner;
 
 public class ImprimindoPositivoMedia {
     public static void main(String[] args) {
-        Scanner leitor = new Scanner(System.in).useLocale(Locale.getDefault());
+        Locale.setDefault(Locale.US);
+        Scanner leitor = new Scanner(System.in);
+
         int cont = 0;
         double media = 0;
         double x;
 
-        //TODO: Implemente as condições adequadas para obter a quantidade
+        //Implemente as condições adequadas para obter a quantidade
         //de valores positivos e a média dos valores positivos:
         double total = 0;
         for (int i = 0; i <= 5; i++) {
