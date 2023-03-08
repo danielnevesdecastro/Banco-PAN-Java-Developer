@@ -14,10 +14,10 @@ public class Dragao {
         for (int i = 0; i < casos; i++) {
             poderDeLuta = ler.nextInt();
             //Implemente a condição adequada para a impressão dos textos conforme o solicitado no desafio:
-            if () {
-                System.out.println();
+            if (poderDeLuta > 8000) {
+                System.out.println("Mais de 8000!");
             } else {
-                System.out.println();
+                System.out.println("Inseto");
             }
         }
     }
