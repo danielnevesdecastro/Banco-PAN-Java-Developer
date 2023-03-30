@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f5c7b36e-e8c8-401d-ae38-1cf4e5c10d28" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Banco PAN Java Developer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Desafio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/basico/Dragao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/basico/FabricaDeCarros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/basico/FibonacciFacil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/basico/ImprimindoPositivoMedia.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/basico/SomadeHcomNTermos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/intermediario/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/intermediario/ContaVogaisEspacos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/intermediario/QuitandaDoSeuZe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java/desafios/intermediario/Triangulo.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2NkqpsrEagbnnSD7vhvfFhQM6Ly" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="SomadeHcomNTermos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.basico.SomadeHcomNTermos" />
+      <module name="Desafio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="desafios.basico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SomadeHcomNTermos" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5c7b36e-e8c8-401d-ae38-1cf4e5c10d28" name="Changes" comment="" />
+      <created>1680218617173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680218617173</updated>
+    </task>
+    <servers />
+  </component>
+</project>
