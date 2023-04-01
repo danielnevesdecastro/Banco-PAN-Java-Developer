@@ -1,10 +1,10 @@
 package com.projeto.no;
 //No
-public class No {
-    private String conteudo;
-    private No proximoNo;
+public class No<T> { // refatorando com generics
+    private T conteudo;
+    private No proximoNo = null;
 
-    public No(String conteudo) {
+    public No(T conteudo) {
         this.proximoNo = null;//fim da estrutura (nó)
         this.conteudo = conteudo;
     }
@@ -17,11 +17,11 @@ public class No {
         this.proximoNo = proximoNo;
     }
 
-    public String getConteudo() {
+    public T getConteudo() {
         return conteudo;
     }
 
-    public void setConteudo(String conteudo) {
+    public void setConteudo(T conteudo) {
         this.conteudo = conteudo;
     }
 
