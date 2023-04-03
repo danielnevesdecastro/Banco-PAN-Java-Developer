@@ -20,10 +20,10 @@ public class Pilha {
         refNoEntrada.setRefNo(refAuxiliar);//o novo no tem como ref  a antiga ref de topo
     }
 
-    public No pop(){
-        if(!this.isEmpty()){
+    public No pop() {
+        if (!this.isEmpty()) {
             No noPoped = refNoEntrada;
-            refNoEntrada= refNoEntrada.getRefNo();
+            refNoEntrada = refNoEntrada.getRefNo();
             return noPoped;
         }
         return null;
@@ -35,5 +35,24 @@ public class Pilha {
 
     }
 
+    @Override
+    public String toString() {
+        String stringRetorno = "---------------\n";
+        stringRetorno += "      Pilha\n";
+        stringRetorno += "---------------\n";
+
+        No noAuxiliar = refNoEntrada;
+        while (true) {
+            if (noAuxiliar != null) {
+                stringRetorno += "[No{dado =" +noAuxiliar.getDado()+"}]\n";
+                noAuxiliar = noAuxiliar.getRefNo();
+            } else {
+                break;
+            }
+
+        }
+        stringRetorno += "===============\n";
+        return stringRetorno;
+    }
 
 }
